@@ -1,6 +1,6 @@
 // page.tsx
 // use client
-import { Box, CircularProgress } from "@mui/material";
+import { Box, Button, CircularProgress } from "@mui/material";
 import { useState } from "react";
 
 const page = () => {
@@ -19,6 +19,7 @@ const page = () => {
         <p>Count</p>
       </Box>
       <CircularProgress />
+      <Button border>PleaseMeClick</Button>
     </div>
   );
 };
